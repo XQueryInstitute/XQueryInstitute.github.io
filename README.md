@@ -1,4 +1,4 @@
-XQueryInstitute.github.io
+XQuery Institute
 =========================
 
-Public website
+This project contains the website of the XQuery Summer Institute.
