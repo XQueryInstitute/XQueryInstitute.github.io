@@ -56,7 +56,7 @@ body {
   color:#373737;
   background: #212121;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-family: "Roboto",Helvetica,sans-serif;
   letter-spacing: -1px;
 }
 
@@ -165,9 +165,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
@@ -237,7 +234,7 @@ table {
  }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
@@ -281,7 +278,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #266679 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -311,7 +308,7 @@ Full-Width Styles
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -370,6 +367,41 @@ Full-Width Styles
   background: #212121;
 }
 
+/*******************************************************************************
+Adapted from Rob Glazebrook's "A Super Simple Horizontal Navigation Bar"
+http://www.cssnewbie.com/super-simple-horizontal-navigation-bar/
+*******************************************************************************/
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0.2em 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #D7A863;
+	border-radius: 5px;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; 
+}
+
+#nav li {
+	list-style: none;
+	float: left; 
+}
+
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+#nav li a:hover {
+	color: white;
+	border-radius: 5px;
+	background-color: #474747; 
+}
 
 
 /*******************************************************************************
