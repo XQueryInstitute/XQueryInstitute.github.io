@@ -397,7 +397,7 @@ http://www.cssnewbie.com/super-simple-horizontal-navigation-bar/
 *******************************************************************************/
 
 #nav {
-	width: 100%;
+	width: 99%;
 	float: left;
 	margin: 0.2em 0 3em 0;
 	padding: 0;
