@@ -265,7 +265,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 660px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -397,7 +397,7 @@ http://www.cssnewbie.com/super-simple-horizontal-navigation-bar/
 *******************************************************************************/
 
 #nav {
-	width: 99%;
+	width: 100%;
 	float: left;
 	margin: 0.2em 0 3em 0;
 	padding: 0;
