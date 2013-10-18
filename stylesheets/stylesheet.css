@@ -306,6 +306,16 @@ Full-Width Styles
   box-shadow: none ;
 }
 
+.big-button {
+  color: #fff;
+  background-color: #266679;
+  padding: 10px 20px;
+  font-size: 17.5px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+
 #header_wrap {
   background: #000000;
   /*
@@ -399,7 +409,7 @@ http://www.cssnewbie.com/super-simple-horizontal-navigation-bar/
 #nav {
 	width: 100%;
 	float: left;
-	margin: 0.2em 0 3em 0;
+	margin: 0.2em 0 0.5em 0;
 	padding: 0;
 	list-style: none;
 	background-color: #D7A863;
