@@ -261,6 +261,7 @@ Full-Width Styles
 
 .outer {
   width: 100%;
+  min-width:680px;
 }
 
 .inner {
