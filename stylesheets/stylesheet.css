@@ -414,13 +414,13 @@ http://www.cssnewbie.com/super-simple-horizontal-navigation-bar/
 	list-style: none;
 	background-color: #D7A863;
 	border-radius: 5px;
-	border-bottom: 1px solid #ccc; 
-	border-top: 1px solid #ccc; 
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 }
 
 #nav li {
 	list-style: none;
-	float: left; 
+	float: left;
 }
 
 #nav li a {
@@ -434,7 +434,7 @@ http://www.cssnewbie.com/super-simple-horizontal-navigation-bar/
 #nav li a:hover {
 	color: white;
 	border-radius: 5px;
-	background-color: #474747; 
+	background-color: #474747;
 }
 
 
